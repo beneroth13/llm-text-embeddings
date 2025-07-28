@@ -24,12 +24,12 @@ llm-text-embeddings/
 └── README.md
 ```
 
-- **finetuning/**  
-  Scripts & settings for LoRA-style contrastive fine-tuning.
 - **benchmark/**  
   Scripts for running MTEB evaluations.
 - **data_augmentation/**  
   Creation of positive pairs through either translation or prompting Qwen.
+- **finetuning/**  
+  Scripts & settings for LoRA-style contrastive fine-tuning.
 
 ---
 
