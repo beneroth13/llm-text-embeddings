@@ -199,14 +199,14 @@ def main():
     # load tasks
     benchmark = mteb.get_tasks(task_types=args.task_types, languages=["eng"])
     skip_tasks = {"YahooAnswersTopicsClassification"}
-    keep_tasks = {"EmotionClassification"} #"EmotionClassification", "ToxicConversationsClassification
+    #keep_tasks = {"EmotionClassification"} #"EmotionClassification", "ToxicConversationsClassification
     filtered = []
     for task in benchmark:
         name = getattr(task, 'name', type(task).__name__)
         if name in skip_tasks or 'Legal' in name:
             continue
-        elif name not in keep_tasks:
-            continue
+        #elif name not in keep_tasks:
+        #    continue
         filtered.append(task)
     if not filtered:
         print("No tasks to run after filtering.")
