@@ -157,7 +157,18 @@ Our best LoRA adapters for downstream tasks:
 Please keep in mind that you will have to unzip the checkpoints. Also, the files only contain the adapter, which you can use as input for benchmark.py.
 
 ## Citation
-TODO after paper is uploaded
+If you find our research helpful, please consider citing us.
+```
+@misc{roth2025resourceefficientadaptationlargelanguage,
+      title={Resource-Efficient Adaptation of Large Language Models for Text Embeddings via Prompt Engineering and Contrastive Fine-tuning}, 
+      author={Benedikt Roth and Stephan Rappensperger and Tianming Qiu and Hamza Imamović and Julian Wörmann and Hao Shen},
+      year={2025},
+      eprint={2507.22729},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.22729}, 
+}
+```
 
 ## 📜 License
 This project is licensed under the MIT License. See LICENSE for details.
